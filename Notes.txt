@@ -1,2 +1,6 @@
 git log -n
 git checkout [hash] [filername]
+git status
+git commit -am "[message]"
+git push
+
