@@ -4,4 +4,5 @@ body {
 	font-family: sans-serif;
 	line-height: 1.5em;
 	padding: 20px;
+	border:1px solid #000;
 }
