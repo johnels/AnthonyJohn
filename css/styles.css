@@ -1,19 +1,33 @@
 body {
-	color:#f00;
-	background-color: #e4e4e4;
-	font-family: sans-serif;
-	line-height: 1.5em;
-	padding: 20px;
-	border:1px solid #000;
-}
+  color: rgba(122, 113, 113, 0.82);
+  background-color: #e4e4e4;
+  font-family: sans-serif;
+  line-height: 1.5em;
+  padding: 20px;
+  border: 1px solid #000; }
+  body p {
+    font-size: 1em;
+    font-weight: bold; }
 
-
-p {
-	font-size: 2em;	
-	font-weight:bold;
-}
-
+/* What happens to comments? */
 header {
-	width:100%;
-	padding:16px;
-}
+  width: 100%;
+  padding: 16px; }
+
+#content {
+  border: 1px solid black;
+  background-color: #f16251;
+  padding: 20px; }
+  #content p {
+    color: #fff;
+    font-weight: 700; }
+    #content p a {
+      text-decoration: none;
+      color: yellow;
+      -webkit-transition: all 0.9s ease;
+      -moz-transition: all 0.9s ease;
+      -o-transition: all 0.9s ease;
+      transition: all 0.9s ease; }
+      #content p a:hover {
+        background-color: grey;
+        color: blue; }

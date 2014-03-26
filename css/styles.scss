@@ -1,0 +1,58 @@
+$color-red: #f16251;
+
+body {
+	color:rgba(122,113,113,0.82);
+	background-color: #e4e4e4;
+	font-family: sans-serif;
+	line-height: 1.5em;
+	padding: 20px;
+	border:1px solid #000;
+	
+	p {
+		font-size: 1em;	
+		font-weight:bold;
+	}
+	
+}
+
+
+/* What happens to comments? */ 
+
+
+@mixin transition($transition) {
+	      -webkit-transition: $transition;
+      -moz-transition: $transition;
+      -o-transition: $transition;
+      transition: $transition;
+       }
+
+
+
+
+header {
+	width:100%;
+	padding:16px;
+}
+
+#content {
+	border: 1px solid black;
+	background-color: $color-red;
+	padding: 20px;
+	
+	p {
+		color: #fff;
+		font-weight: 700;
+		
+		
+		a { text-decoration: none;
+			color: yellow;
+			@include transition (all .9s ease);
+			
+			&:hover {
+				background-color: grey;
+				color: blue;
+			}
+					
+		}
+	}
+}
